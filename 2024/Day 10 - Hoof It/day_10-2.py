@@ -14,7 +14,7 @@ for i in range(len(input)):
 def count_score(curr, head):
     score = 0
     y, x = curr
-
+    
     if input[y][x] == 9:
         trails = heads.get(head, [])
         if (y, x) not in trails:
